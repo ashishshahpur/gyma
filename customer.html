@@ -102,60 +102,18 @@
             <div id="page-inner">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="page-head-line">Customer</h1>
+                        <h1 class="page-head-line"> Add Customer</h1>
                     </div>
-
-                    <form class="navbar-form" role="search">
-        <div class="input-group col-md-8  ">
-            <input type="text " class="form-control" placeholder="Search" name="srch" id="srch">
-            <div class="input-group-btn ">
-                <button class="btn btn-danger move-left" type="submit"><i class="glyphicon glyphicon-search "></i>
-                </button>
-            </div>
-        </div>
-        <button id="addcustomer" class="btn btn-primary">Add Customer</button>
-    </form>
-                </div>
-
-
-
-
-<hr />
-
-
-<div id ="tablepanel" class="panel panel-default " >
-    <div class="panel-heading">
-        Users
-    </div>
-    <div class="panel-body">
-        <div class="table-responsive" >
-            <table class="table table-hover" id='table'>
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Phone</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Username</th>
-                        <th>Age</th>
-                        <th>Source</th>
-                    </tr>
-                </thead>
-                </table>
-        </div>
-    </div>
-</div>
-
-<form id="customerform" class="col-md-4" >
-  <h3>Add Customer</h3>
-  <div class="form-group">
-    <input type="text" class="form-control" id="" placeholder="Phone No.">
-    <span class="" style="color:red" id="addcustomererror"></span>
-  </div>
-  <div class="form-group"> <select class="form-control" id="usertype"> </select> </div>
-  <button class="btn btn-default" type="submit" name="button">Submit</button>
-</form>
-
+<form> First Name <input type="text" name="firstname"><br><br>
+    Last Name <input type="text" name="lastname"><br><br>
+    Phone No <input type="text" name="phoneno"><br><br>
+    Height <input type="text" name="height"><br><br>
+    Weight <input type="text" name="weight"><br><br>
+    DateofBirth <input type="date" name="birthdate"><br><br>
+    <button class="btn btn-primary">Submit</button>
+     <button class="btn btn-primary">Reset</button>
+                </form>
+                  
             </div>
             <!-- /. PAGE INNER  -->
         </div>
