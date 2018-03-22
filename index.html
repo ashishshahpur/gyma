@@ -96,16 +96,19 @@
                         <h1 class="page-head-line">Dashboard</h1>
                     </div>
                 </div>
-                 <form class="navbar-form" role="search">
-        <div class="input-group col-md-8  ">
+                <!-- This is where the search bar and the add customer button appears -->
+        <div class="input-group col-md-8" >
+          <form class="navbar-form" role="search" style="display:inline-block">
             <input type="text " class="form-control" placeholder="Search" name="srch" id="srch">
             <div class="input-group-btn ">
                 <button class="btn btn-danger move-left" type="submit"><i class="glyphicon glyphicon-search "></i>
                </button>
-      </div></div>  </form>
-<form action="customer.html">
+           </div>
+        </form>
+   <form action="customer.html" style="float:right">
         <button id="addcustomer" class="btn btn-primary">Add Customer</button>
    </form>
+   </div>
 
 
 <div id ="tablepanel" class="panel panel-default " >
